@@ -27,6 +27,20 @@
 		background-color:#F7941D;
 		color:#fff;
 		border:1px solid #D07200;
+		box-shadow: 0 1px 0 rgba(255,255,255,.5) inset;
+	}
+
+	.btn:focus{
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+	}
+
+	.btn:hover{
+		transition: background-color 300ms linear;
+		background-color:#F7841D
+	}
+
+	.btn:active{
+
 	}
 
 	input {
