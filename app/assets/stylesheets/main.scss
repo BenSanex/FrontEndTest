@@ -28,6 +28,7 @@
 		color:#fff;
 		border:1px solid #D07200;
 		box-shadow: 0 1px 0 rgba(255,255,255,.5) inset;
+		outline:none;
 	}
 
 	.btn:focus{
@@ -36,11 +37,11 @@
 
 	.btn:hover{
 		transition: background-color 300ms linear;
-		background-color:#F7841D
+		background-color:#F7841D;
 	}
 
 	.btn:active{
-
+		border:1px inset #D07200;
 	}
 
 	input {
