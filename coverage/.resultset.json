@@ -1,0 +1,60 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/Ben/Documents/craftjack/app/helpers/application_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/Ben/Documents/craftjack/app/controllers/leads_controller.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        0,
+        0,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/Ben/Documents/craftjack/app/controllers/application_controller.rb": [
+        1,
+        null,
+        null,
+        1,
+        null
+      ],
+      "/Users/Ben/Documents/craftjack/app/controllers/welcome_controller.rb": [
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/Ben/Documents/craftjack/app/models/lead.rb": [
+        1,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/Ben/Documents/craftjack/app/models/application_record.rb": [
+        1,
+        1,
+        null
+      ]
+    },
+    "timestamp": 1468949385
+  }
+}
