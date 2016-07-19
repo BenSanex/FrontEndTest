@@ -1,7 +1,6 @@
 class Lead < ApplicationRecord
-	validates :zipcode, presence: true, if: :is_a_valid_zipcode?
+	validates :zipcode, presence:true
+	validates :zipcode, :format => { :with => /\A[0-9]{5}\z/,
+    :message => "Must be a valid zip code format" }
 
-	def is_a_valid_zipcode?
-		/\A[0-9]{5}\z/ =~ zipcode
-	end
 end
